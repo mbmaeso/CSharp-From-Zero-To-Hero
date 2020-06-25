@@ -12,11 +12,11 @@ namespace BootCamp.Chapter
         /// </summary>
         internal static void OptionalTestCases()
         {
-            // int swapCount = 0;
-            // Sort(new int[0], ref swapCount);
+            int swapCount = 0;
+            //Sort(new int[] { 3, 2, 4, 1 }, ref swapCount);
 
             // This will print your array like "3, 2, 4, 1".
-            Utility.PrintArray(new int[] { 3, 2, 4, 1 });
+            Utility.PrintArray(Sort(new int[] { 3, 2, 4, 1 }, ref swapCount));
         }
 
         /// <summary>
